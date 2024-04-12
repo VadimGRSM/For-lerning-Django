@@ -1,7 +1,17 @@
 {% extends 'main/layout.html' %}
 
-{% block title %}Название вашего сайта{% endblock %}
+{% block title %}Главная страница CURVA BOBER{% endblock %}
 
-{% block header %}Добро пожаловать на наш сайт!{% endblock %}
-
-{% block caption %}Добро пожаловать на главную страницу!{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="jumbotron" style="position: relative; right: -20px;">
+            <h1 class="display-4">Добро пожаловать на главную страницу CURVA BOBER!</h1>
+            <p class="lead">Мы рады приветствовать вас здесь. CURVA BOBER - это не просто сообщество, это стиль жизни.</p>
+            <hr class="my-4">
+            <p>Следите за нашими последними новостями и анонсами мероприятий на странице "Главная". У нас всегда что-то интересное происходит!</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Присоединиться к нам</a>
+            </p>
+        </div>
+    </div>
+{% endblock %}

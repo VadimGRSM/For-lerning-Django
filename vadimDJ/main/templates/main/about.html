@@ -1,7 +1,23 @@
 {% extends 'main/layout.html' %}
 
-{% block title %}О нас - Название вашего сайта{% endblock %}
+{% block title %}О нас{% endblock %}
 
-{% block header %}О нас{% endblock %}
-
-{% block caption %}Наша команда{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row" style="">
+            <div class="col-md-8">
+                <h1 class="display-4">О нас</h1>
+                <p class="lead">Мы - команда CURVA BOBER, стремящаяся создать уникальные и захватывающие мероприятия для всех наших участников.</p>
+                <hr class="my-4">
+                <p>Наша цель - собрать вместе единомышленников, которые разделяют нашу страсть к спорту, культуре и общению.</p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Присоединиться к нам</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>Контакты</h2>
+                <p>Хотите связаться с нами? Напишите нам по адресу: info@curvabober.com или позвоните по телефону: +123456789.</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

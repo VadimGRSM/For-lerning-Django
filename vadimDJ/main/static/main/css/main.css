@@ -1,0 +1,52 @@
+body {
+    background-color: GhostWhite;
+}
+
+aside {
+    float: left;
+    background-color: GhostWhite;
+    width: 20%;
+    padding: 2%;
+    height: 100vh;
+    color: #0d6efd;
+    border: 2px solid #0d6efd;
+    border-radius: 0 20px 20px 0;
+}
+
+aside img {
+    width: 120px;
+    float: left;
+    border: 2px solid #0d6efd;
+}
+
+aside .logo
+{
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+}
+
+aside h3
+{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+aside ul {list-style: none;}
+
+aside ul a {text-decoration: none;}
+
+aside ul li
+{
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover
+{
+    color: DarkBlue;
+    transform: scale(1.05);
+}

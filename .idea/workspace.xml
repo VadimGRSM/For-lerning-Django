@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ccab05e-b854-4611-9619-71145099ba10" name="Changes" comment="Install Django">
-      <change afterPath="$PROJECT_DIR$/vadimDJ/main/templates/main/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vadimDJ/main/templates/main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vadimDJ/main/templates/main/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vadimDJ/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8ccab05e-b854-4611-9619-71145099ba10" name="Changes" comment="Изучение Django 3 / Урок #4 - Шаблонизатор Jinja и HTML шаблоны">
+      <change afterPath="$PROJECT_DIR$/vadimDJ/main/static/main/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vadimDJ/main/static/main/img/bobr.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vadimDJ/main/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/main/templates/main/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vadimDJ/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vadimDJ/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vadimDJ/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/main/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.manage.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\Django\vadimDJ\main\static\main\img" />
+      <recent name="D:\PycharmProjects\Django\vadimDJ\main\static\main" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Django" />
@@ -106,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712830802446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Изучение Django 3 / Урок #4 - Шаблонизатор Jinja и HTML шаблоны">
+      <option name="closed" value="true" />
+      <created>1712855351208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712855351208</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Install Django" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install Django" />
+    <MESSAGE value="Изучение Django 3 / Урок #4 - Шаблонизатор Jinja и HTML шаблоны" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изучение Django 3 / Урок #4 - Шаблонизатор Jinja и HTML шаблоны" />
   </component>
 </project>
