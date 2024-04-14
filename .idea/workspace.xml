@@ -4,19 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ccab05e-b854-4611-9619-71145099ba10" name="Changes" comment="Изучение Django 3 / Урок #4 - Шаблонизатор Jinja и HTML шаблоны">
-      <change afterPath="$PROJECT_DIR$/vadimDJ/main/static/main/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vadimDJ/main/static/main/img/bobr.jpg" afterDir="false" />
+    <list default="true" id="8ccab05e-b854-4611-9619-71145099ba10" name="Changes" comment="new html pages">
+      <change afterPath="$PROJECT_DIR$/vadimDJ/news/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vadimDJ/news/templates/news/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vadimDJ/news/templates/news/details_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vadimDJ/news/templates/news/news_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vadimDJ/news/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vadimDJ/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vadimDJ/main/static/main/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/main/static/main/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vadimDJ/main/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/main/templates/main/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vadimDJ/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/main/templates/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vadimDJ/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/main/templates/main/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vadimDJ/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vadimDJ/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vadimDJ/vadimDJ/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/vadimDJ/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vadimDJ/vadimDJ/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vadimDJ/vadimDJ/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,11 +59,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.manage.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -121,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712855351208</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new html pages">
+      <option name="closed" value="true" />
+      <created>1712922889247</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712922889247</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +163,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Install Django" />
     <MESSAGE value="Изучение Django 3 / Урок #4 - Шаблонизатор Jinja и HTML шаблоны" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изучение Django 3 / Урок #4 - Шаблонизатор Jinja и HTML шаблоны" />
+    <MESSAGE value="new html pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="new html pages" />
   </component>
 </project>

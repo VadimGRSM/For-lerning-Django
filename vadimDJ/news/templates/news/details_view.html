@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}{{ article.title }}{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="jumbotron" style="position: relative; right: -20px;">
+            <div class="box" style="width: 75%; margin-top: 50px;">
+                <h1>{{ article.title }}</h1>
+                <h3>{{ article.anons }}</h3>
+                <p>{{ article.full_text }}</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

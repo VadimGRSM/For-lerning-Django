@@ -1,0 +1,26 @@
+{% extends 'main/layout.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="jumbotron" style="position: relative; right: -20px;">
+            <h1>{{ title }}</h1>
+            <h1 class="display-4">Тут расположены все новости </h1>
+
+            <div class="box" style="width: 75%; margin-top: 50px;">
+                {%if news %}
+                    {% for el in news %}
+                        <div class="alert alert-warning">
+                            <h3>{{ el.title }}</h3>
+                            <h6>{{ el.data }}</h6>
+                            <p>{{ el.anons }}</p>
+                            <a href="{% url 'news_detail' el.id %}" class="btn btn-primary">Детали...</a>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <h3>Новостей пока нету ;) </h3>
+                {% endif %}
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

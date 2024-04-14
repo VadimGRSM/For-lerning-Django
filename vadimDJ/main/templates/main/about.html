@@ -1,9 +1,7 @@
 {% extends 'main/layout.html' %}
 
-{% block title %}О нас{% endblock %}
-
 {% block content %}
-    <div class="container">
+    <div class="container" style="position: relative; left: 20px;">
         <div class="row" style="">
             <div class="col-md-8">
                 <h1 class="display-4">О нас</h1>
@@ -14,6 +12,14 @@
                     <a class="btn btn-primary btn-lg" href="#" role="button">Присоединиться к нам</a>
                 </p>
             </div>
+
+            <h1>Наши невебические качества:</h1>
+            <ul>
+                {% for name_element in values %}
+                <li>{{ name_element }}</li>
+                {% endfor %}
+            </ul>
+
             <div class="col-md-4">
                 <h2>Контакты</h2>
                 <p>Хотите связаться с нами? Напишите нам по адресу: info@curvabober.com или позвоните по телефону: +123456789.</p>
